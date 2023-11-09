@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E064DD752AFC944F00B546A2 /* BlackScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E064DD742AFC944F00B546A2 /* BlackScreenSaverView.swift */; };
+		E064DD782AFCA57000B546A2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E064DD772AFCA57000B546A2 /* LICENSE */; };
 		E068C4562AFC2795009D716A /* SKCUApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E068C4552AFC2795009D716A /* SKCUApp.swift */; };
 		E068C4582AFC2795009D716A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E068C4572AFC2795009D716A /* ContentView.swift */; };
 		E068C45A2AFC2797009D716A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E068C4592AFC2797009D716A /* Assets.xcassets */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		E064DD742AFC944F00B546A2 /* BlackScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackScreenSaverView.swift; sourceTree = "<group>"; };
+		E064DD762AFCA51E00B546A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E064DD772AFCA57000B546A2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E068C4522AFC2795009D716A /* SKCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E068C4552AFC2795009D716A /* SKCUApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKCUApp.swift; sourceTree = "<group>"; };
 		E068C4572AFC2795009D716A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 		E068C4492AFC2795009D716A = {
 			isa = PBXGroup;
 			children = (
+				E064DD772AFCA57000B546A2 /* LICENSE */,
+				E064DD762AFCA51E00B546A2 /* README.md */,
 				E068C4542AFC2795009D716A /* SKCU */,
 				E068C4662AFC2797009D716A /* SKCUTests */,
 				E068C4702AFC2797009D716A /* SKCUUITests */,
@@ -236,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E064DD782AFCA57000B546A2 /* LICENSE in Resources */,
 				E068C45D2AFC2797009D716A /* Preview Assets.xcassets in Resources */,
 				E068C45A2AFC2797009D716A /* Assets.xcassets in Resources */,
 			);
